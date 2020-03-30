@@ -1,0 +1,56 @@
+{
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"[typescript]": {
+		"editor.formatOnSave": false
+	},
+	"[typescriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"css.validate": false,
+	"editor.autoIndent": "full",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.detectIndentation": false,
+	"editor.fontFamily": "JetBrains Mono, monospace",
+	"editor.fontSize": 14,
+	"editor.fontWeight": "400",
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.letterSpacing": 0.5,
+	"editor.lineHeight": 1.5,
+	"editor.minimap.enabled": false,
+	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+	"eslint.alwaysShowStatus": true,
+	"eslint.validate": [
+		"typescript",
+		"typescriptreact",
+		"javascript",
+		"javascriptreact"
+	],
+	"explorer.compactFolders": false,
+	"extensions.ignoreRecommendations": false,
+	"files.encoding": "utf8",
+	"files.exclude": {
+		"**/.cache": true,
+		"**/.DS_Store": true,
+		"**/.git": true
+	},
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"git.autofetch": true,
+	"html.format.preserveNewLines": true,
+	"less.validate": false,
+	"scss.validate": false,
+	"terminal.integrated.tabs.enabled": true,
+	"window.closeWhenEmpty": true,
+	"window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+	"workbench.colorTheme": "GitHub Dark Dimmed",
+	"workbench.iconTheme": "vscode-icons"
+}
