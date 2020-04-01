@@ -1,4 +1,7 @@
 :root {
+	--sidebar: 320px;
+	--wrapper: 1024px;
+
 	--size-0: 0px;
 	--size-1: 1px;
 	--size-2: 2px;

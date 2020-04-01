@@ -16,3 +16,9 @@ h6 {
 	font-weight: 900;
 	color: var(--gray-700);
 }
+
+h1 {
+	font-weight: 900;
+	font-size: var(--size-36);
+	margin-bottom: var(--size-16);
+}
