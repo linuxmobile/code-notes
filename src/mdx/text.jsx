@@ -9,6 +9,11 @@ const StyledBlockquote = styled.blockquote`
 
 const StyledParagraph = styled.p`
 	margin-bottom: var(--size-20);
+
+	a {
+		text-decoration: underline;
+		font-weight: 500;
+	}
 `;
 
 export function Paragraph(props) {
