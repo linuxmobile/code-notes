@@ -6,7 +6,7 @@ const unwrapImages = require('remark-unwrap-images');
 
 module.exports = {
 	siteMetadata: {
-		title: 'Codene',
+		title: 'code-notes',
 		contentPath: 'notes',
 		gitRepoContentPath: 'https://github.com/railek/code-notes/tree/master/notes/',
 		basePath: '/',

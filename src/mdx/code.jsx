@@ -9,7 +9,8 @@ const StyledPre = styled.pre`
 	border-radius: var(--size-6);
 	border: 1px solid var(--gray-200);
 	margin: var(--size-24) var(--size-0);
-	word-break: break-word !important;
+	overflow-y: hidden;
+	overflow-x: scroll;
 `;
 
 export default function Code(props) {
