@@ -56,7 +56,7 @@ function Layout({ basePath, title, tags, children }) {
 				<StyledHeader>
 					<Burger open={open} setOpen={setOpen} />
 					<a
-						href="https://github.com/railek/codene"
+						href="https://github.com/railek/code-notes"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
