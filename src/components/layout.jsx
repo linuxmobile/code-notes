@@ -15,7 +15,7 @@ const StyledMain = styled.main`
 	transform: ${(props) => (props.navOpen ? `translateX(${'320px'})` : `translateX(${'0px'})`)};
 	transition: all 0.2s ease-in-out;
 	min-height: 100vh;
-	border-left: 1px solid var(--gray-200);
+	border-left: 1px solid #0d0d14;
 
 	@media (min-width: 768px) {
 		right: var(--sidebar);
@@ -27,7 +27,7 @@ const StyledHeader = styled.header`
 	align-items: center;
 	justify-content: space-between;
 	height: var(--size-64);
-	border-bottom: 1px solid var(--gray-200);
+	border-bottom: 1px solid #0d0d14;
 	padding: var(--size-16);
 
 	@media (min-width: 768px) {
