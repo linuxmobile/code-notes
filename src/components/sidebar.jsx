@@ -20,7 +20,7 @@ const StyledSidebar = styled.aside`
 	.title {
 		display: flex;
 		align-items: center;
-		background: var(--gray-200);
+		background: #222236;
 		padding: var(--size-12);
 		border-radius: var(--size-6);
 		transition: background 0.2s ease-in-out;
