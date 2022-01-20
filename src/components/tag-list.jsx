@@ -17,7 +17,7 @@ const StyledTag = styled.div`
 	}
 
 	a {
-		color: var(--gray-700);
+		color: -eee;
 		font-weight: 600;
 		font-size: var(--size-14);
 	}
