@@ -21,7 +21,7 @@ const StyledList = styled.div`
 		align-items: center;
 		font-size: var(--size-20);
 		font-weight: 700;
-		color: var(--gray-700);
+		color: #eee;
 
 		div {
 			width: var(--size-48);
