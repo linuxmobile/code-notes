@@ -5,9 +5,9 @@ import styled from 'styled-components';
 
 const StyledPre = styled.pre`
 	padding: var(--size-24);
-	background-color: var(--gray-100) !important;
+	background-color: #17151e !important;
 	border-radius: var(--size-6);
-	border: 1px solid var(--gray-200);
+	border: 1px solid #17151e;
 	margin: var(--size-24) var(--size-0);
 	overflow-y: hidden;
 	overflow-x: scroll;
