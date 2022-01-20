@@ -14,7 +14,7 @@ const StyledSidebar = styled.aside`
 	overflow: auto;
 	z-index: -10;
 	min-height: 100vh;
-	background: var(--gray-100);
+	background: #151520;
 	padding: var(--size-24);
 
 	.title {
@@ -31,7 +31,7 @@ const StyledSidebar = styled.aside`
 
 		svg {
 			font-size: var(--size-24);
-			color: var(--gray-700);
+			color: #eee;
 			margin-right: var(--size-12);
 		}
 
@@ -45,7 +45,7 @@ const StyledSidebar = styled.aside`
 		font-size: var(--size-16);
 		margin-top: var(--size-32);
 		margin-bottom: var(--size-12);
-		color: var(--gray-500);
+		color: #eee;
 		text-transform: uppercase;
 		font-weight: 500;
 	}
