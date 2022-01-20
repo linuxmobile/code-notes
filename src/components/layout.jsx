@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
-import { IoLogoGithub } from 'react-icons/io';
+import { IoLogoGithub, IoLogoTwitter, IoLogoTwitch } from 'react-icons/io';
 import { Sidebar, Burger } from '.';
 
 const StyledMain = styled.main`
@@ -11,7 +11,7 @@ const StyledMain = styled.main`
 	bottom: 0;
 	left: 0;
 	overflow: auto;
-	background: var(--white);
+	background: rgb(13 13 20);
 	transform: ${(props) => (props.navOpen ? `translateX(${'320px'})` : `translateX(${'0px'})`)};
 	transition: all 0.2s ease-in-out;
 	min-height: 100vh;
@@ -36,7 +36,7 @@ const StyledHeader = styled.header`
 
 	svg {
 		font-size: var(--size-32);
-		color: var(--gray-500);
+		color: var(--white);
 	}
 `;
 
@@ -56,11 +56,25 @@ function Layout({ basePath, title, tags, children }) {
 				<StyledHeader>
 					<Burger open={open} setOpen={setOpen} />
 					<a
-						href="https://github.com/railek/code-notes"
+						href="https://github.com/linuxmobile/aprendiendoaprogramar"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						<IoLogoGithub />
+					</a>
+					<a
+						href="https://twitter.com/linuxmobileok"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<IoLogoTwitter />
+					</a>
+					<a
+						href="https://twitch.tv/linuxmobile"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<IoLogoTwitch />
 					</a>
 				</StyledHeader>
 
