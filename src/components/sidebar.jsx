@@ -26,7 +26,7 @@ const StyledSidebar = styled.aside`
 		transition: background 0.2s ease-in-out;
 
 		:hover {
-			background: var(--gray-300);
+			background: #0d0d14;
 		}
 
 		svg {
