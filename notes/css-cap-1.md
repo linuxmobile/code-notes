@@ -9,7 +9,6 @@ emoji: 🖼️
 
 *En esta semana comencé la segunda parte del curso de [Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5) de FreeCodeCamp. La verdad, fue bastante sencillo. No es algo muy dificil de entender CSS. Vamos a ver que aprendí.*
 
-{{< alert icon="👉" text="Un breve disclaimer. Tal vez vaya un poco rápido y me salte alguna parte. Pero esto es con el fin de DOCUMENTAR. No es un tutorial." />}}
 
 ### CSS Básico
 
